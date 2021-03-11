@@ -1,11 +1,8 @@
-Linguagem: pt-br
+language: pt
 
-Funcionalidade: Interatividade
- 
-Cenario: Visualizar página
-Dado Que esteja na página
-Quando Acessar o site, abrir o primeiro departamento, clicar no primeiro produto.
-Então Deverá ser exibida a página do primeiro produto
-
-
-
+Funcionalidade: Listagem
+    Cenário: Selecionar produto 
+        Dado que esteja na home
+        Quando selecionar o primeiro departamento
+        E abrir a página do primeiro produto
+        Então deverá ser exibido a página do produto
