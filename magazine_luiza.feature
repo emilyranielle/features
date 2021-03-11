@@ -1,13 +1,11 @@
-Linguagem: pt-br
-
 Funcionalidade: Pesquisa
- 
-Cenario: Pesquisar produto
-Dado Que esteja dentro do critério de pesquisa
-Quando Acessar o site, pesquisar o produto, adicionar o primeiro exibido.
-Então Deverá ser adicionado ao carrinho
-
-
-
-
-
+    Contexto:
+        Dado que esteja na home
+        Esquema do Cenário: Adicionar produto
+        Quando pesquisar  por "item"
+        E selecionar o primeiro exibido
+        Então o produto deverá ser adicionado ao carrinho
+    
+        Exemplos: 
+            | item       |
+            | computador |
