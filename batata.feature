@@ -1,8 +1,14 @@
-Linguagem: pt-br
+language: pt
+
 
 Funcionalidade: Busca
- 
-Cenario: Buscar imagem
-Dado Que esteja no Google
-Quando Realizar a busca, ir em imagens e selecionar a primeira
-Então Deverá ser exibida a imagem desejada
+    Esquema do Cenario: Buscar imagem
+        Dado que esteja na home
+        Quando realizar a busca "imagem"
+        E ir em imagens
+        E selecionar a primeira imagem
+        Então deverão ser exibidas as informações da imagem
+        
+        Exemplos:
+            | imagem |
+            | batata |
