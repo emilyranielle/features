@@ -1,11 +1,8 @@
-Linguagem: pt-br
+language : pt
 
 Funcionalidade: Navegação
  
-Cenario: Navegar no site
-Dado Que esteja no menu
-Quando Acessar o site e clicar em categorias.
-Então Deverá ser exibida uma nova pagina.
-
-
-
+    Cenario: Navegar por páginas
+    Dado que esteja na home
+    Quando  selecionar o campo categorias
+    Entao deverá ser exibida uma nova página
