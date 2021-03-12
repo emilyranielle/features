@@ -4,7 +4,7 @@ Funcionalidade: Autenticação
 
          Cenario: Login
          Dado que esteja na home
-         Quando realizar o login com os <dados>
+         Quando realizar o login com as informações <dados>
          Então deverá exibir as informações da conta
 
          Exemplos: 
